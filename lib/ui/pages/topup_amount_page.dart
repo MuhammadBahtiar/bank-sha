@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../widgets/buttons.dart';
+
 class TopupAmountPage extends StatefulWidget {
   const TopupAmountPage({Key? key}) : super(key: key);
 
@@ -28,7 +30,9 @@ class _TopupAmountPageState extends State<TopupAmountPage> {
           decimalDigits: 0,
           symbol: '',
         ).format(
-          text.isEmpty ? 0 : int.parse(text),
+          int.parse(
+            text.replaceAll('.', ''),
+          ),
         ),
       );
     });
@@ -91,7 +95,7 @@ class _TopupAmountPageState extends State<TopupAmountPage> {
                   fontWeight: medium,
                 ),
                 decoration: InputDecoration(
-                  prefixIcon: Text(
+                  prefix: Text(
                     'Rp',
                     style: whiteTextStyle.copyWith(
                       fontSize: 36,
@@ -110,95 +114,91 @@ class _TopupAmountPageState extends State<TopupAmountPage> {
           const SizedBox(
             height: 66,
           ),
-          Wrap(
-            spacing: 40,
-            runSpacing: 40,
-            children: [
-              CustomInputButton(
-                title: '1',
-                onTap: () {
-                  addAmount('1');
-                },
-              ),
-              CustomInputButton(
-                title: '2',
-                onTap: () {
-                  addAmount('2');
-                },
-              ),
-              CustomInputButton(
-                title: '3',
-                onTap: () {
-                  addAmount('3');
-                },
-              ),
-              CustomInputButton(
-                title: '4',
-                onTap: () {
-                  addAmount('4');
-                },
-              ),
-              CustomInputButton(
-                title: '5',
-                onTap: () {
-                  addAmount('5');
-                },
-              ),
-              CustomInputButton(
-                title: '6',
-                onTap: () {
-                  addAmount('6');
-                },
-              ),
-              CustomInputButton(
-                title: '7',
-                onTap: () {
-                  addAmount('7');
-                },
-              ),
-              CustomInputButton(
-                title: '8',
-                onTap: () {
-                  addAmount('8');
-                },
-              ),
-              CustomInputButton(
-                title: '9',
-                onTap: () {
-                  addAmount('9');
-                },
-              ),
-              const SizedBox(
-                height: 60,
+          Wrap(spacing: 40, runSpacing: 40, children: [
+            CustomInputButton(
+              title: '1',
+              onTap: () {
+                addAmount('1');
+              },
+            ),
+            CustomInputButton(
+              title: '2',
+              onTap: () {
+                addAmount('2');
+              },
+            ),
+            CustomInputButton(
+              title: '3',
+              onTap: () {
+                addAmount('3');
+              },
+            ),
+            CustomInputButton(
+              title: '4',
+              onTap: () {
+                addAmount('4');
+              },
+            ),
+            CustomInputButton(
+              title: '5',
+              onTap: () {
+                addAmount('5');
+              },
+            ),
+            CustomInputButton(
+              title: '6',
+              onTap: () {
+                addAmount('6');
+              },
+            ),
+            CustomInputButton(
+              title: '7',
+              onTap: () {
+                addAmount('7');
+              },
+            ),
+            CustomInputButton(
+              title: '8',
+              onTap: () {
+                addAmount('8');
+              },
+            ),
+            CustomInputButton(
+              title: '9',
+              onTap: () {
+                addAmount('9');
+              },
+            ),
+            const SizedBox(
+              width: 60,
+              height: 60,
+            ),
+            CustomInputButton(
+              title: '0',
+              onTap: () {
+                addAmount('0');
+              },
+            ),
+            GestureDetector(
+              onTap: () {
+                deleteAmount();
+              },
+              child: Container(
                 width: 60,
-              ),
-              CustomInputButton(
-                title: '0',
-                onTap: () {
-                  addAmount('0');
-                },
-              ),
-              GestureDetector(
-                onTap: () {
-                  deleteAmount();
-                },
-                child: Container(
-                  width: 60,
-                  height: 60,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: numberBackgroundColor,
-                  ),
-                  child: Center(
-                    child: Icon(
-                      Icons.arrow_back,
-                      color: whiteColor,
-                    ),
+                height: 60,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: numberBackgroundColor,
+                ),
+                child: Center(
+                  child: Icon(
+                    Icons.arrow_back,
+                    color: whiteColor,
                   ),
                 ),
               ),
-            ],
-          ),
+            ),
+          ]),
           const SizedBox(
             height: 50,
           ),
@@ -207,7 +207,6 @@ class _TopupAmountPageState extends State<TopupAmountPage> {
             onPressed: () async {
               if (await Navigator.pushNamed(context, '/pin') == true) {
                 await launch('https://demo.midtrans.com/');
-
                 Navigator.pushNamedAndRemoveUntil(
                     context, '/topup-success', (route) => false);
               }

@@ -28,7 +28,7 @@ class _TransferAmountPageState extends State<TransferAmountPage> {
           decimalDigits: 0,
           symbol: '',
         ).format(
-          text.isEmpty ? 0 : int.parse(text),
+          int.parse(text.replaceAll('.', '')),
         ),
       );
     });
