@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\url_launcher_windows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\system_apis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\url_launcher_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include\url_launcher_windows\url_launcher_windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\system_apis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\url_launcher_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5D08DD20-BA07-3C4E-8B2F-A497F12D6135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{486763E5-C257-3376-8461-D0608E07F22C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/CMakeFiles/INSTALL.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/CMakeFiles/ALL_BUILD.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/CMakeFiles/ZERO_CHECK.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/flutter/CMakeFiles/INSTALL.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/runner/CMakeFiles/bank_sha.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/runner/CMakeFiles/INSTALL.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/runner/CMakeFiles/ALL_BUILD.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/plugins/url_launcher_windows/CMakeFiles/url_launcher_windows_plugin.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/plugins/url_launcher_windows/CMakeFiles/INSTALL.dir
+D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/plugins/url_launcher_windows/CMakeFiles/ALL_BUILD.dir

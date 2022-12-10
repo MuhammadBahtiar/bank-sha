@@ -1,0 +1,10 @@
+^D:\TEKNIK INFORMATIKA\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\PROJECT\BANK_SHA\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/windows" "-BD:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows" --check-stamp-file "D:/Teknik Informatika/SEMESTER 7/PEMROGRAMAN MOBILE LANJUT/project/bank_sha/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

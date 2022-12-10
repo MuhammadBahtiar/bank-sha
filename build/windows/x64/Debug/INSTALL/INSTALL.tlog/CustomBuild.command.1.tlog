@@ -1,0 +1,10 @@
+^D:\TEKNIK INFORMATIKA\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\PROJECT\BANK_SHA\BUILD\WINDOWS\CMAKEFILES\34F62199665A605460A2A1E7284D7F83\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

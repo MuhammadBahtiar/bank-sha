@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F73F2032-92F0-3402-AC04-EFA8DDCF6487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{486763E5-C257-3376-8461-D0608E07F22C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

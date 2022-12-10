@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Teknik Informatika\SEMESTER 7\PEMROGRAMAN MOBILE LANJUT\project\bank_sha\build\windows\CMakeFiles\402fbaa1db191d9e30ba2b31e4d79ccb\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F73F2032-92F0-3402-AC04-EFA8DDCF6487}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
